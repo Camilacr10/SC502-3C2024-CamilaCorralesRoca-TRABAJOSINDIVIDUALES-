@@ -38,7 +38,7 @@ body {
 
 .doctor-name {
     font-size: 2rem;
-    color: #00509e;
+    color: #073e75;
 }
 
 .doctor-specialty {
@@ -62,7 +62,7 @@ body {
 }
 
 .appointment-button:hover {
-    background-color: #003f7d;
+    background-color: #072a4d;
 }
 
 /* Sección de Comentarios de Pacientes */
