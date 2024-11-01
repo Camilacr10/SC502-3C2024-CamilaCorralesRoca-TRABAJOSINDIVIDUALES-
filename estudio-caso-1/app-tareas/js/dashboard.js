@@ -64,15 +64,15 @@ document.addEventListener('DOMContentLoaded', function () {
                 const commentText = input.value.trim();
                 if (commentText) {
                     task.comments.push(commentText);
-                    input.value = '';  // Clear input field
-                    loadTasks(); // Reload tasks to update comments
+                    input.value = '';  
+                    loadTasks(); 
                 }
             });
 
             taskCard.querySelectorAll('.delete-comment-btn').forEach(function (deleteBtn, index) {
                 deleteBtn.addEventListener('click', function () {
                     task.comments.splice(index, 1);
-                    loadTasks(); // Reload tasks to update comments
+                    loadTasks(); 
                 });
             });
         });
