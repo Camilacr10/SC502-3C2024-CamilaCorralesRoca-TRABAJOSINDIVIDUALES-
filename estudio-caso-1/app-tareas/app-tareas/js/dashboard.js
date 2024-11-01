@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (commentText) {
                     task.comments.push(commentText);
                     input.value = '';  
-                    loadTasks(); 
+                    loadTasks();
                 }
             });
 
